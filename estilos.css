@@ -21,7 +21,7 @@ h1{
 
 p{
     font-size: xx-large;
-    padding: 15%;
+    padding: 5%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,7 +32,7 @@ p{
 }
 
 button{
-    font-size: xx-large;
+    font-size: 18px;
     background-color: rgb(233,213,218);
     padding: 20px 45px;
     text-decoration: none;
