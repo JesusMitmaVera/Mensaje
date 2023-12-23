@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    background: #aac9fa;
+}
+
+h1{
+    margin-top: 30px;
+    font-size: 40px;
+    color: Maroon;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 14px Goldenrod;
+}
+
+.contenedor{
+    background: #aac9fa;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+p{
+    font-size: xx-large;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    color: #045880;
+    font-family: "Constantia", serif;
+    font-weight: normal;
+}
+
+button{
+    font-size: 18px;
+    background-color: rgb(233,213,218);
+    padding: 20px 45px;
+    text-decoration: none;
+    color: RebeccaPurple;
+    transition: .4s ease;
+    padding: 0.75em;
+}
+
+button:hover{
+    box-shadow: 0 0 10px aqua,
+                0 0 30px aqua,
+                0 0 70px aqua,
+                0 0 130px aqua;
+    transform: translate(-100%,0);
+}
+
+#yesBtn{
+    transform: translate(-100%,0);
+}
+
+#noBtn{
+    position: absolute;
+}
+
+.swal2-close {
+    font-size: 24px;
+    color: red;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.swal2-close:hover {
+    color: red;
+}
+
+
+
+
